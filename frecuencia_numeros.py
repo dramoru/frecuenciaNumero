@@ -1,8 +1,6 @@
-# Abro archivo y obtengo texto
 with open('contabilidad.txt', encoding="utf-8") as archivo:
     texto = archivo.read()
 
-# Obtengo la frecuencia de los caracteres
 frec_caracteres: dict[str, int] = {}
 
 for caracter in texto:
